@@ -1,9 +1,14 @@
 Câu 1:
-Tiêu chí		           |Value Types (Kiểu giá trị)			            |Reference Types (Kiểu tham chiếu)
-Các kiểu dữ liệu đại diện  |int, float, double, bool, char, struct, enum    |class, string, object, interface, delegate, array
-Vị trí lưu trữ dữ liệu	   |trực tiếp trong stack hoặc trong đối tượng heap |Trên heap, biến con trỏ thì trong stack
-Cơ chế gán (Assignment)	   |Sao chép toàn bộ giá trị			            |Sao chép địa chỉ tham chiếu
-Cơ chế giải phóng bộ nhớ   |Tự động giải phóng ngay khi biến ra khỏi phạm vi|Do trình thu gom rác quản lý
+- Value Types (Kiểu giá trị):
+	+ Các kiểu dữ liệu đại diện: int, float, double, bool, char, struct, enum
+	+ Vị trí lưu trữ dữ liệu: trực tiếp trong stack hoặc trong đối tượng heap
+	+ Cơ chế gán (Assignment): Sao chép toàn bộ giá trị
+	+ Cơ chế giải phóng bộ nhớ: Tự động giải phóng ngay khi biến ra khỏi phạm vi
+- Reference Types (Kiểu tham chiếu):
+  	+ Các kiểu dữ liệu đại diện: class, string, object, interface, delegate, array
+  	+ Vị trí lưu trữ dữ liệu: Trên heap, biến con trỏ thì trong stack
+  	+ Cơ chế gán (Assignment): Sao chép địa chỉ tham chiếu
+	+ Cơ chế giải phóng bộ nhớ: Do trình thu gom rác quản lý
 
 Câu 2:
 1. Khác biệt giữa init và set thông thường:
